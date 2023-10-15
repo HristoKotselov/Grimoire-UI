@@ -37,3 +37,102 @@
     transform: translateY(0px);
   }
 }
+
+/*html {*/
+/*  !* this makes sure the padding and the border is included in the box sizing *!*/
+/*  box-sizing: border-box;*/
+/*  overflow-x: hidden;*/
+/*}*/
+
+/*html body {*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*  overflow-x: inherit;*/
+/*}*/
+
+.hover {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(0, 191, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.container {
+  height: 80%;
+  border: 15px white;
+  text-align: center;
+  padding: 10px;
+}
+
+.w-md-editor-text-pre > code,
+.w-md-editor-text-input {
+  text-wrap: initial;
+  height: 100%;
+}
+
+.markdown {
+  width: 55%;
+}
+
+.md-editor-dark {
+  --md-bk-color: #121212 !important;
+  --md-bk-color-outstand: rgb(75, 75, 75) !important;
+}
+
+.w-md-editor-text-input {
+  text-wrap: normal;
+}
+
+.short-info {
+  width: 20%;
+  padding: 5px;
+  margin-left: 15px;
+  /*max-height: 800px;*/
+  /*background-color: green;*/
+}
+
+.test {
+  text-wrap: normal;
+}
+
+.item-name {
+  border: 1px darkgray;
+  text-align: center;
+  background-color: grey;
+}
+
+.right-panel {
+  width: 25%;
+  padding: 10px;
+  margin-left: 5px;
+  background: rgb(33, 33, 33);
+}
+
+.slide-show {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.popular-pages {
+  text-align: center;
+  padding-top: 20px;
+  height: auto;
+}
+
+.slide-card {
+  padding: 4px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:orange !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
